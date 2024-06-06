@@ -1,0 +1,147 @@
+/*
+ This file is created by:  Lin Lae Phway
+*/
+
+body, header, nav, main, footer, h1, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color:	#FFFF;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    max-height: 20%;
+}
+
+
+header{
+    width:25%;
+    float:left;
+}
+
+nav{
+    width: 70%;
+    float: right;
+    margin: 6em 3em 0 0;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    color: #AB7442;
+    text-align: right;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    padding-left: 4em;
+    text-decoration: none;
+}
+
+main {
+    clear:left;
+    background-color: #AB7442;
+    padding: 2%;
+    font-size: 1.25em;
+    font-size: 1em;
+    color: #fff;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#title {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#couple_package {
+    color: #fff;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5em;
+    margin-bottom: 4em;
+}
+
+#friend_package {
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 11em;
+}
+
+#class {
+    color: #fff;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#couple {
+    width: 36.5em;
+    height: 20em;
+    display: block;
+    float: left;
+    margin-bottom: 5em;
+}
+
+#friends {
+    width: 36.5em;
+    height: 20em;
+    display: block;
+    float: Right;
+    margin-top: 5em;
+    margin-bottom: 0em;
+}
+
+#person1, #person2,#person3,#person4 {
+    width: 15em;
+    float: left;
+    margin: 2%;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#person {
+    height: 15ch;
+}
+
+#conclusion {
+    color: #fff;
+    text-align: left;
+    margin-top: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    clear: both;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact h3 {
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #000;
+    padding: 0.1em;
+    text-decoration: none;
+}
+
+footer p a {
+    color: #000;
+    text-decoration: none;
+}
